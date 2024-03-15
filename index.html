@@ -1,11 +1,11 @@
 <DOCTYPE HTML />
-<html>
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width:device--width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css"/>
-    <title>EXEMPLO</title>
+    <title>Página Básica</title>
 </head>
 
 <body>
@@ -14,15 +14,62 @@
             <h1>Minha página</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li> <a href="./paginas/ajuda.html"> Ajuda   </a> </li>
+                    <li> <a href="./paginas/sobre.html"> Sobre   </a> </li>
+                    <li> <a href="#contato"> Contato </a> </li>
                 </ul>
 
             </nav>
+
         </header>
 
+        <section class="Conteudo">
+            <div>
+                <h2>Ajuda</h2>
+                <p><span>Ajuda</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quam, mollitia laudantium non error sunt sint libero magni! Cumque iure in dolorum laboriosam quod autem, nostrum soluta hic quas. Molestias magni culpa laudantium impedit repellat perspiciatis eligendi harum sunt nulla minima facilis, dolor mollitia consequatur praesentium cumque ea maxime pariatur enim nemo hic laboriosam quae? Amet excepturi ipsa eaque quisquam ipsam id autem magnam omnis sint ex, modi non ducimus neque reiciendis praesentium sunt enim? Quisquam, vitae. Odio nostrum, culpa hic nulla rerum enim officiis et totam veritatis neque aut magni numquam dolores fugiat alias iste deleniti vero quod sint!</p>
+                <a href="#">Mais...</a>
+            </div>
 
+            <div>
+                <h2>Sobre</h2>
+                <p><span>Sobre</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quam, mollitia laudantium non error sunt sint libero magni! Cumque iure in dolorum laboriosam quod autem, nostrum soluta hic quas. Molestias magni culpa laudantium impedit repellat perspiciatis eligendi harum sunt nulla minima facilis, dolor mollitia consequatur praesentium cumque ea maxime pariatur enim nemo hic laboriosam quae? Amet excepturi ipsa eaque quisquam ipsam id autem magnam omnis sint ex, modi non ducimus neque reiciendis praesentium sunt enim? Quisquam, vitae. Odio nostrum, culpa hic nulla rerum enim officiis et totam veritatis neque aut magni numquam dolores fugiat alias iste deleniti vero quod sint!</p>
+                <a href="#">Mais...</a>
+            </div>
+
+            <div id="contato">
+                <h2>Contato</h2>
+                <form>
+                    <fieldset>
+                        <legend>Contato</legend>
+                            <div>
+                                <label for="idEmail">Email</label>
+                                <input type="text" name="txtEmail" id="idEmail"placeholder="Digite seu e-mail">
+                            </div>
+                            <div>
+                                <label for="idTel">Telefone</label>
+                                <input type="tel" name="txtTel" id="idTel" placeholder="Digite seu telefone">
+                            </div>
+                            <div>
+                                <button type="button">Enviar</button>
+                            </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <footer class="rodape">
+
+            <nav class="menu">
+                <ul>
+                    <li> <a href="https://www.fiap.com.br/" target="_blank"> FIAP   </a> </li>
+                    <li> <a href="https://www.google.com/" target="_blank"> GOOGLE </a> </li>
+                    <li> <a href="https://github.com/" target="_blank"> Github </a> </li>
+                </ul>
+            </nav>
+
+            <p>Todos os direitos reservados &copy; 2024 - Minha Página</p>
+        </footer>
+      
     </div>
 
 </body>
